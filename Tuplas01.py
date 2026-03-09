@@ -4,7 +4,11 @@
 
 # --- 1. Creando nuestra primera tupla ---
 # Vamos a crear una tupla con los días de la semana.
+import os
+
 dias_semana = ("Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo")
+
+os.system('clear' if os.name != 'nt' else 'cls')
 
 print("Esta es nuestra tupla de días de la semana:")
 print(dias_semana)

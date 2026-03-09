@@ -1,9 +1,13 @@
+import os
+
 # Listas en Python: Gestionando tu Lista de la Compra
 
 # --- 1. Creando nuestra lista de la compra inicial ---
 # Una lista es una colección ordenada y MODIFICABLE de elementos.
 # Se definen con corchetes [].
 lista_compra = ["Leche", "Huevos", "Pan", "Manzanas"]
+
+os.system('clear' if os.name != 'nt' else 'cls')
 
 print("🛒 Mi lista de la compra inicial:")
 print(lista_compra)

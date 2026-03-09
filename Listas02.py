@@ -2,12 +2,16 @@
 # Este script simula un sorteo de la Lotería Primitiva, generando los números necesarios.
 
 import random
+import os
+
 
 # --- 1. Definir los parámetros del sorteo ---
 # La Lotería Primitiva en España consiste en elegir 6 números de un bombo de 49.
 CANTIDAD_NUMEROS_PRINCIPALES = 6
 NUMERO_MINIMO = 1
 NUMERO_MAXIMO = 49
+
+os.system('clear' if os.name != 'nt' else 'cls')
 
 print("🍀 ¡Mucha suerte en el sorteo de la Lotería Primitiva! 🍀")
 print("-" * 50)

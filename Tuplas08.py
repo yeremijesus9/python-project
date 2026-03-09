@@ -1,4 +1,5 @@
 import random
+import os
 
 # Definimos los datos en una tupla (inmutable)
 # Cada elemento es otra tupla: (País, Capital)
@@ -9,6 +10,8 @@ DATOS = (
     ("Francia", "París"),
     ("Japón", "Tokio")
 )
+
+os.system('clear' if os.name != 'nt' else 'cls')
 
 def jugar():
     # Convertimos a lista solo para desordenar, pero los datos siguen siendo tuplas

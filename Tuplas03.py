@@ -1,3 +1,5 @@
+import os
+
 # Tuplas: Dibujando con Coordenadas ASCII
 
 # --- 1. Definiendo la forma con tuplas ---
@@ -17,6 +19,8 @@ puntos_casa = {
     # Base
     (2, 5), (3, 5), (4, 5), (5, 5), (6, 5)
 }
+
+os.system('clear' if os.name != 'nt' else 'cls')
 
 print("Dibujando una figura usando un conjunto de tuplas como coordenadas.")
 print("-" * 40)

@@ -1,3 +1,5 @@
+import os
+
 # Tuplas: Coordenadas Inmutables
 
 # --- 1. Definiendo coordenadas con tuplas ---
@@ -5,6 +7,8 @@
 # como las coordenadas (x, y) o (x, y, z).
 punto_2d = (10, 20)
 punto_3d = (5, -3, 12)
+
+os.system('clear' if os.name != 'nt' else 'cls')
 
 print("Ejemplos de coordenadas como tuplas:")
 print(f"Coordenada en 2D: {punto_2d}")
