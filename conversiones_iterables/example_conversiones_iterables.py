@@ -24,6 +24,7 @@ no_duplicates= list(set(my_numbers))
 print ('### remove duplicates ###')
 print ('------------------------------')
 print(my_numbers)
+print(no_duplicates)
 print ('------------------------------')
 print ('\n')
 ### end remove duplicates ###

@@ -55,13 +55,13 @@ print("\n4. operaciones entre conjunto a", a, "y conjunto b", b)
 # unión: elementos en A o en B
 print("   unión (a | b):", a | b)
 
-# intersección: elementos en ambos
+# intersección: elementos en ambos (repetidos)
 print("   intersección (a & b):", a & b)
 
-# diferencia: elementos en A pero no en B
+# diferencia: elementos en A pero no en B (saca los elementos de un lado que no estan en el otro)
 print("   diferencia (a - b):", a - b)
 
-# diferencia simétrica: elementos en A o en B, pero no en ambos
+# diferencia simétrica: elementos en A o en B, pero no en ambos (los elementos que estan en ambos)
 print("   diferencia simétrica (a ^ b):", a ^ b)
 
 

@@ -32,6 +32,6 @@ mi_lista.remove(30)
 print("Lista después de remove(30):", mi_lista)
 
 # extra: Usando pop() para eliminar por índice (por defecto el último)
-elemento_borrado = mi_lista.pop()
+elemento_borrado = mi_lista.pop(2)
 print("Lista después de pop() (elimina el último):", mi_lista)
 print("Elemento que fue borrado con pop:", elemento_borrado)
